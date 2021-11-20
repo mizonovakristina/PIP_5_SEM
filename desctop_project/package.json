@@ -1,0 +1,10 @@
+{
+	"name": "desctop_project",
+	"version": "0.0.1",
+	"main": "index.html",
+	"windows": {
+		"title": "Настолькое приложение Мизонова К.А.",
+		"width": 300,
+		"height": 300
+	}
+}
