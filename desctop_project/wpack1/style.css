@@ -1,0 +1,74 @@
+html, body, div, h1, h2, h3, p, ul, li {
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  font-size: 100%;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+.header {
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: 100;
+  text-align: center;
+  padding: 40px 0;
+}
+.header h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.header h2 {
+  font-size: 36px;
+}
+.edu, .additional, .skills, .footer {
+  padding: 20px 0;
+}
+.edu h3, .additional h3, .skills h3 {
+  width: 700px;
+  text-align: center;
+  font-size: 24px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #555555;
+  margin: 0 auto 10px auto;
+}
+.skills h3 {
+  margin-bottom: 18px;
+}
+.edu p, .footer p {
+  width: 700px;
+  font-size: 18px;
+  font-weight: 200;
+  margin: 0 auto 0 auto;
+}
+.additional ul, .skills ul {
+  width: 700px;
+  font-size: 18px;
+  font-weight: 200;
+  margin: 0 auto 0 auto;
+}
+.skills ul {
+  text-align: center;
+}
+.additional li, .skills li {
+  list-style-type: none;
+}
+.skills li {
+  display: inline;
+  padding: 8px;
+  margin-right: 10px;
+  background-color: #444444;
+  color: #cccccc;
+}
+.footer {
+  background-color: #fb2163;
+  color: #ffffff;
+}
+.footer p {
+  text-align: center;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffffff;
+}
